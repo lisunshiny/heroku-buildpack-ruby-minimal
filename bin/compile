@@ -6,7 +6,7 @@ set -o pipefail
 unset GIT_DIR
 
 VENDOR_URL="https://heroku-buildpack-ruby.s3.amazonaws.com"
-BUNDLER_VERSION="1.5.2"
+BUNDLER_VERSION="1.12.5"
 
 # BUILDPACK_REVISION is used to clear the bundle when something about how we manage
 # the bundle changes.
